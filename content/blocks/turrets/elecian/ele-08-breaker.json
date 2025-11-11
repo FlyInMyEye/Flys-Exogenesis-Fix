@@ -19,8 +19,12 @@
     "spread": 9
   },
   "consumes": {
-    "power": 7
+    "power": 7,
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "shootType": {
     "type": "LaserBulletType",
     "colors": [

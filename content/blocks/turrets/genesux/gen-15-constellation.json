@@ -15,8 +15,12 @@
     "basePrefix": "genesux-"
   },
   "consumes": {
-    "power": 67
+    "power": 67,
+    "coolant": {
+      "amount": 2.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "chargeSound": "lasercharge",
   "shoot": {
     "firstShotDelay": 80

@@ -12,6 +12,13 @@
     "type": "drawTurret",
     "basePrefix": "elecian-"
   },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 2.5,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "thorium": {
       "sprite": "exogenesis-gauss-bullet",

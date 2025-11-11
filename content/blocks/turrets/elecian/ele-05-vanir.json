@@ -20,8 +20,12 @@
     "shotDelay": 3
   },
   "consumes": {
-    "power": 18
+    "power": 18,
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "pointBulletType",

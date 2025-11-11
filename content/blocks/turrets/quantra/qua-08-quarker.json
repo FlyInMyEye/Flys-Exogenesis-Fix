@@ -30,8 +30,12 @@
   "rotateSpeed": 5,
   "shootSound": "laser",
   "consumes": {
-    "power": 60
+    "power": 60,
+    "coolant": {
+      "amount": 2.0
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
@@ -100,5 +104,5 @@
     }
   ],
   "category": "turret",
-  "research": "qua-03-gluon"
+  "research": "qua-07-aurora"
 }

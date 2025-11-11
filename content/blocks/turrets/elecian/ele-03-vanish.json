@@ -19,8 +19,12 @@
     "shotDelay": 5
   },
   "consumes": {
-    "power": 6
+    "power": 6,
+    "coolant": {
+      "amount": 0.75
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",

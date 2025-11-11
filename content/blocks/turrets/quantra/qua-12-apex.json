@@ -15,6 +15,13 @@
   "shoot": {
     "firstShotDelay": 80
   },
+  "coolantMultiplier": 0.3,
+  "consumes": {
+    "coolant": {
+      "amount": 3.5,
+      "optional": true
+    }
+  },
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "quantra-",
@@ -645,5 +652,5 @@
     "gamma-green/650"
   ],
   "category": "turret",
-  "research": "qua-12-apex"
+  "research": "qua-11-atomizer"
 }

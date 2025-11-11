@@ -1054,5 +1054,6 @@
     "oxide/500",
     "primal-red/2000"
   ],
-  "category": "turret"
+  "category": "turret",
+  "research": "sol-11-pyromancer"
 }

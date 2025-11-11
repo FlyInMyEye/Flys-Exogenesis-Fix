@@ -14,8 +14,12 @@
   },
   "moveWhileCharging": false,
   "consumes": {
-    "power": 90
+    "power": 90,
+    "coolant": {
+      "amount": 2.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "update": true,
   "hasPower": true,
   "shootEffect": {

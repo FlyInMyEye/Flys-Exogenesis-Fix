@@ -1,8 +1,13 @@
 {
   "localizedName": "Acid",
   "description": "A dangerous, caustic liquid.",
-  "isLiquid": true,
-  "cache": "water",
+  "temperature": 0.5,
+  "viscosity": 0.7,
+  "heatCapacity": 0.5,
+  "flammability": 0,
+  "explosiveness": 0,
   "effect": "exogenesis-acidic",
-  "color": "a1b46e"
+  "color": "a1b46e",
+  "lightColor": "d4e89e",
+  "research": "water"
 }

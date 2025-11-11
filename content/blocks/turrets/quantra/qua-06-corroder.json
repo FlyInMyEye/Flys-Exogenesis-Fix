@@ -5,8 +5,12 @@
   "reload": 10,
   "range": 200,
   "consumes": {
-    "power": 20
+    "power": 20,
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "inaccuracy": 2,
   "shoot": {
     "type": "shootAlternate",
@@ -83,5 +87,5 @@
     "silicon/440"
   ],
   "category": "turret",
-  "research": "qua-05-discharge"
+  "research": "qua-05-meson"
 }

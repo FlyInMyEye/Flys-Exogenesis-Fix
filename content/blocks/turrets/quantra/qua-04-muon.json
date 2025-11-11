@@ -19,6 +19,13 @@
     "type": "drawTurret",
     "basePrefix": "quantra-"
   },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1.2,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "blast-compound": {
       "type": "MissileBulletType",

@@ -17,8 +17,12 @@
     "power": 200,
     "liquids": [
       "exogenesis-cold-plasma/1.52"
-    ]
+    ],
+    "coolant": {
+      "amount": 3.5
+    }
   },
+  "coolantMultiplier": 0.3,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "genesux-",

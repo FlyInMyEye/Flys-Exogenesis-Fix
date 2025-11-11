@@ -19,8 +19,12 @@
     "firstShotDelay": 90
   },
   "consumes": {
-    "power": 30
+    "power": 30,
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "flakBulletType",

@@ -16,8 +16,12 @@
     "firstShotDelay": 35
   },
   "consumes": {
-    "power": 4
+    "power": 4,
+    "coolant": {
+      "amount": 0.75
+    }
   },
+  "coolantMultiplier": 0.5,
   "shootSound": "lasershoot",
   "hasPower": true,
   "shootType": {

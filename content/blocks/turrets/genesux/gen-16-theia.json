@@ -8,7 +8,13 @@
   "shootY": 32,
   "shootSound": "shootBig",
   "recoil": 4.2,
-  "coolantMultiplier": 0.84,
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 2.5,
+      "optional": true
+    }
+  },
   "shootCone": 40,
   "inaccuracy": 7,
   "shoot": {

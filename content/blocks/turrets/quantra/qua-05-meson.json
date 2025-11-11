@@ -4,8 +4,12 @@
   "health": 2500,
   "size": 3,
   "consumes": {
-    "power": 20
+    "power": 20,
+    "coolant": {
+      "amount": 1.2
+    }
   },
+  "coolantMultiplier": 0.5,
   "reload": 15,
   "rotateSpeed": 5,
   "range": 200,
@@ -46,11 +50,5 @@
   ],
   "category": "turret",
   "shootSound": "spark",
-  "research": {
-    "parent": "qua-03-gluon",
-    "objectives": [
-      "qua-03-gluon",
-      "qua-01-ioner"
-    ]
-  }
+  "research": "qua-04-muon"
 }

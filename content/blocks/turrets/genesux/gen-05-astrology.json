@@ -22,8 +22,12 @@
     "basePrefix": "genesux-"
   },
   "consumes": {
-    "power": 11
+    "power": 11,
+    "coolant": {
+      "amount": 1.2
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",

@@ -18,8 +18,12 @@
     "firstShotDelay": 80
   },
   "consumes": {
-    "power": 40
+    "power": 40,
+    "coolant": {
+      "amount": 2.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "chargeEffect": {
@@ -311,5 +315,5 @@
     "gamma-green/700"
   ],
   "category": "turret",
-  "research": "qua-11-atomizer"
+  "research": "qua-10-tsar"
 }

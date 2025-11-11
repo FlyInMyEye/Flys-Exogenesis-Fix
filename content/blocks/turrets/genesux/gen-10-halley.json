@@ -58,8 +58,12 @@
     "power": 17,
     "liquids": [
       "cold-plasma/0.4"
-    ]
+    ],
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "shootType": {
     "type": "PointLaserBulletType",
     "sprite": "exogenesis-c-halley-laser",

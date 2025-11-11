@@ -15,6 +15,13 @@
     "type": "drawTurret",
     "basePrefix": "genesux-"
   },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 0.75,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "astrolite": {
       "type": "ArtilleryBulletType",
@@ -134,5 +141,5 @@
   "envRequired": 0,
   "enDisabled": 4,
   "category": "turret",
-  "research": "gen-01-astral"
+  "research": "gen-02-starfleet"
 }

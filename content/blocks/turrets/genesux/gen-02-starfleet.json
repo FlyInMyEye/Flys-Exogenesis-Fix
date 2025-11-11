@@ -18,8 +18,12 @@
   "rotateSpeed": 5,
   "shootSound": "laser",
   "consumes": {
-    "power": 1
+    "power": 1,
+    "coolant": {
+      "amount": 0.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",

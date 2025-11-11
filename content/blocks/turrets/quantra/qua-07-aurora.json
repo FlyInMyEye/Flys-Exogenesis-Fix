@@ -17,6 +17,13 @@
     "type": "drawTurret",
     "basePrefix": "quantra-"
   },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1.5,
+      "optional": true
+    }
+  },
   "rotateSpeed": 4.0,
   "shootSound": "flame2",
   "ammoTypes": {
@@ -157,5 +164,5 @@
     "gamma-green/450"
   ],
   "category": "turret",
-  "research": "qua-05-discharge"
+  "research": "qua-06-corroder"
 }

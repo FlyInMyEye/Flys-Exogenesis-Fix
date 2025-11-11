@@ -31,6 +31,13 @@
   "recoil": 3,
   "rotateSpeed": 2,
   "shootSound": "shotgun",
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1.5,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "omega-blue": {
       "type": "basicBulletType",

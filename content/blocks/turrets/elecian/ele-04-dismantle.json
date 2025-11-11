@@ -21,6 +21,13 @@
   "rotateSpeed": 3,
   "shootSound": "shotgun",
   "ammoPerShot": 24,
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1.2,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "titanium": {
       "type": "BasicBulletType",

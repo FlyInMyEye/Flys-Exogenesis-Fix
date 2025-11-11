@@ -24,8 +24,12 @@
   },
   "shootSound": "flame",
   "consumes": {
-    "power": 10
+    "power": 10,
+    "coolant": {
+      "amount": 1.5
+    }
   },
+  "coolantMultiplier": 0.5,
   "shootType": {
     "type": "BasicBulletType",
     "status": "freezing",

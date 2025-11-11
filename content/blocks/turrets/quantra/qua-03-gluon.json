@@ -13,8 +13,12 @@
     "basePrefix": "quantra-"
   },
   "consumes": {
-    "power": 2
+    "power": 2,
+    "coolant": {
+      "amount": 0.75
+    }
   },
+  "coolantMultiplier": 0.5,
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
@@ -76,5 +80,5 @@
     "copper/130"
   ],
   "category": "turret",
-  "research": "qua-00-tau"
+  "research": "qua-02-boson"
 }

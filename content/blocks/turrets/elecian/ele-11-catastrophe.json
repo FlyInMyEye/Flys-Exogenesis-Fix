@@ -13,6 +13,13 @@
     "type": "drawTurret",
     "basePrefix": "elecian-"
   },
+  "coolantMultiplier": 0.3,
+  "consumes": {
+    "coolant": {
+      "amount": 3.5,
+      "optional": true
+    }
+  },
   "shoot": {
     "type": "shootPattern",
     "shotDelay": 4,

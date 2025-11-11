@@ -15,6 +15,13 @@
     "type": "drawTurret",
     "basePrefix": "genesux-"
   },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 0.5,
+      "optional": true
+    }
+  },
   "ammoTypes": {
     "astrolite": {
       "type": "BasicBulletType",
