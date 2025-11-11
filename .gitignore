@@ -1,1 +1,11 @@
 .vscode
+.gradle/
+build/
+*.jar
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+classes/
+scripts.old/

@@ -1,4 +1,8 @@
-# Exogenesis
+# Exogenesis Redux - Java Edition
+
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/FlyInMyEye/Flys-Exogenesis-Fix)
+[![Mindustry](https://img.shields.io/badge/Mindustry-v146+-brightgreen.svg)](https://github.com/Anuken/Mindustry)
+[![Java](https://img.shields.io/badge/Java-8+-orange.svg)](https://www.java.com/)
 
 My discord AureusAltirius#6109
 
@@ -6,6 +10,23 @@ My discord AureusAltirius#6109
 
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
+
+## ⚡ Java Conversion (v2.0.0)
+
+This mod has been **converted to Java** for better performance and maintainability! See [JAVA_CONVERSION.md](./JAVA_CONVERSION.md) for technical details.
+
+### What's New:
+- ✅ **Full Java implementation** - Better performance and stability
+- ✅ **Modern Mindustry support** - Compatible with v146+
+- ✅ **Improved unit AI** - Rewritten mining drone logic
+- ✅ **Save compatible** - Works with existing save files
+- ✅ **Build system** - Gradle-based compilation
+
+### Building from Source:
+```bash
+gradle jar           # Build desktop JAR
+gradle deploy        # Build deployment package
+```
 
 ## The mod adds:
 
